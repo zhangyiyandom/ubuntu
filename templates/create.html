@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="card w-50 mb-3" style="margin: auto;"></div>
+    <div class="card-body">
+        <form method="POST">
+            <label for="title">username</label>
+            <input type="text" name="username">
+            <label for="detail">email</label>
+            <input type="text" name="email">
+            <label for="detail">license</label>
+            <input type="text" name="license">
+            <input class="btn btn-success btn-sm" type="submit" value="Create">
+        </form>
+    </div>
+</div>
+
+
+{% endblock %}

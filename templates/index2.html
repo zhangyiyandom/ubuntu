@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<h1>メインページ</h1>
+<div class="card w-50 mb-3" style="margin: auto;">
+    <div class="card-body">
+        <h2 class="card-title">homework1</h2>
+        <p>deadline:2022/12/1</p>
+        <a class="btn btn-success btn-sm" href="/sample/kohyoumei" role="button">edit</a>
+        <a class="btn btn-danger btn-sm" href="/buy/kohyoumei" role="button">delete</a>
+    </div>
+</div>
+<div class="card w-50 mb-3" style="margin: auto;">
+    <div class="card-body">
+        <h2 class="card-title">homework2</h2>
+        <p>deadline:2022/12/2</p>
+        <a class="btn btn-success btn-sm" href="/sample/kohyoumei" role="button">edit</a>
+        <a class="btn btn-danger btn-sm" href="/buy/kohyoumei" role="button">delete</a>
+    </div>
+</div>
+{% endblock %}
